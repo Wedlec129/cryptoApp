@@ -11,6 +11,13 @@
 		5B3E32D62ABD6D0B00213394 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3E32D52ABD6D0B00213394 /* ContentView.swift */; };
 		5B3E32D82ABD6D0C00213394 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B3E32D72ABD6D0C00213394 /* Assets.xcassets */; };
 		5B3E32DB2ABD6D0C00213394 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B3E32DA2ABD6D0C00213394 /* Preview Assets.xcassets */; };
+		5BC063D52ABDCD6F00A1A2A3 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC063D42ABDCD6F00A1A2A3 /* CoinModel.swift */; };
+		5BC063D72ABDD3DF00A1A2A3 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC063D62ABDD3DF00A1A2A3 /* CoinRowView.swift */; };
+		5BC063DD2ABDD50700A1A2A3 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC063DC2ABDD50700A1A2A3 /* PreviewProvider.swift */; };
+		5BFC17642ABD7DEB00DAAE99 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFC17632ABD7DEB00DAAE99 /* Colors.swift */; };
+		5BFC176A2ABD8B8D00DAAE99 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFC17692ABD8B8D00DAAE99 /* HomeView.swift */; };
+		5BFC176E2ABD8E9200DAAE99 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFC176D2ABD8E9200DAAE99 /* CircleButtonView.swift */; };
+		5BFC17702ABDB65500DAAE99 /* CircleButtonViewAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFC176F2ABDB65500DAAE99 /* CircleButtonViewAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		5B3E32D52ABD6D0B00213394 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5B3E32D72ABD6D0C00213394 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B3E32DA2ABD6D0C00213394 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5BC063D42ABDCD6F00A1A2A3 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
+		5BC063D62ABDD3DF00A1A2A3 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
+		5BC063DC2ABDD50700A1A2A3 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
+		5BFC17632ABD7DEB00DAAE99 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		5BFC17692ABD8B8D00DAAE99 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5BFC176D2ABD8E9200DAAE99 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
+		5BFC176F2ABDB65500DAAE99 /* CircleButtonViewAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonViewAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +66,9 @@
 			isa = PBXGroup;
 			children = (
 				5B3E32D32ABD6D0B00213394 /* cryptoAppApp.swift */,
+				5BFC17622ABD7DD700DAAE99 /* Extentions */,
+				5BC063D32ABDCD5900A1A2A3 /* Model */,
+				5BFC17652ABD8A9500DAAE99 /* Core */,
 				5B3E32D52ABD6D0B00213394 /* ContentView.swift */,
 				5B3E32D72ABD6D0C00213394 /* Assets.xcassets */,
 				5B3E32D92ABD6D0C00213394 /* Preview Content */,
@@ -65,6 +82,66 @@
 				5B3E32DA2ABD6D0C00213394 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5BC063D32ABDCD5900A1A2A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5BC063D42ABDCD6F00A1A2A3 /* CoinModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5BFC17622ABD7DD700DAAE99 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				5BFC17632ABD7DEB00DAAE99 /* Colors.swift */,
+				5BC063DC2ABDD50700A1A2A3 /* PreviewProvider.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		5BFC17652ABD8A9500DAAE99 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5BFC17662ABD8AA200DAAE99 /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		5BFC17662ABD8AA200DAAE99 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5BFC176B2ABD8E4600DAAE99 /* Components */,
+				5BFC17682ABD8AD600DAAE99 /* ViewModel */,
+				5BFC17672ABD8AD000DAAE99 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5BFC17672ABD8AD000DAAE99 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5BFC17692ABD8B8D00DAAE99 /* HomeView.swift */,
+				5BC063D62ABDD3DF00A1A2A3 /* CoinRowView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5BFC17682ABD8AD600DAAE99 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5BFC176B2ABD8E4600DAAE99 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5BFC176D2ABD8E9200DAAE99 /* CircleButtonView.swift */,
+				5BFC176F2ABDB65500DAAE99 /* CircleButtonViewAnimation.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +214,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BC063D72ABDD3DF00A1A2A3 /* CoinRowView.swift in Sources */,
 				5B3E32D62ABD6D0B00213394 /* ContentView.swift in Sources */,
+				5BFC176A2ABD8B8D00DAAE99 /* HomeView.swift in Sources */,
+				5BFC17642ABD7DEB00DAAE99 /* Colors.swift in Sources */,
+				5BFC17702ABDB65500DAAE99 /* CircleButtonViewAnimation.swift in Sources */,
+				5BFC176E2ABD8E9200DAAE99 /* CircleButtonView.swift in Sources */,
 				5B3E32D42ABD6D0B00213394 /* cryptoAppApp.swift in Sources */,
+				5BC063DD2ABDD50700A1A2A3 /* PreviewProvider.swift in Sources */,
+				5BC063D52ABDCD6F00A1A2A3 /* CoinModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +357,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,8 +386,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
